@@ -17,7 +17,7 @@ big-border {
   border: 3px solid #cd8b1f;
   border-radius: 10px;
   position: relative;
-  background-color: rgb(99, 97, 97);
+  background-color: rgb(0, 0, 0);
 }
 
 #banner {
@@ -51,7 +51,7 @@ big-border {
   justify-content: left;
   align-items: flex-end;
   padding: 10px;
-  background-color: #770000f6;
+  background-color: #000000f6;
   overflow: hidden;
 }
 
@@ -59,7 +59,7 @@ button {
   padding: 10px 20px;
   font-size: 10px;
   cursor: pointer;
-  background-color: #b97171;
+  background-color: #832222;
   color: white;
   border: none;
   border-radius: 5px;
