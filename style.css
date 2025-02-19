@@ -17,7 +17,7 @@ big-border {
   border: 3px solid #cd8b1f;
   border-radius: 10px;
   position: relative;
-  background-color: black;
+  background-color: rgb(99, 97, 97);
 }
 
 #banner {
@@ -48,10 +48,10 @@ big-border {
 .div3 {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: left;
   align-items: flex-end;
   padding: 10px;
-  background-color: #913c3c;
+  background-color: #770000f6;
   overflow: hidden;
 }
 
@@ -59,7 +59,7 @@ button {
   padding: 10px 20px;
   font-size: 10px;
   cursor: pointer;
-  background-color: #000000;
+  background-color: #b97171;
   color: white;
   border: none;
   border-radius: 5px;
@@ -75,7 +75,6 @@ button:hover {
   width: 120px;
   height: 40px;
   object-fit: cover;
-  border-radius: 10px;
   overflow: hidden;
 }
 
