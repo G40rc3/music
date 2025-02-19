@@ -1,0 +1,87 @@
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+big-border {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  width: 80%;
+  height: 80%;
+  border: 3px solid #cd8b1f;
+  border-radius: 10px;
+  position: relative;
+  background-color: black;
+}
+
+#banner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
+
+.div1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 100%;
+  width: 100%;
+}
+
+.div2 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.div3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+  padding: 10px;
+  background-color: #913c3c;
+  overflow: hidden;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 10px;
+  cursor: pointer;
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin: 5px 0;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #cd8b1f;
+}
+
+.banner-image {
+  width: 120px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.bodyimg {
+  width: 120px;
+  height: 140px;
+  object-fit: fill;
+  overflow: hidden;
+}
